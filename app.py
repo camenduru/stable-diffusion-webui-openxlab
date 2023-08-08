@@ -6,7 +6,7 @@ os.chdir(f"/home/xlab-app-center/stable-diffusion-webui")
 
 os.system(f"sed -i -e '/(modelmerger_interface, \"Checkpoint Merger\", \"modelmerger\"),/d' /home/xlab-app-center/stable-diffusion-webui/modules/ui.py")
 os.system(f"sed -i -e '/(train_interface, \"Train\", \"train\"),/d' /home/xlab-app-center/stable-diffusion-webui/modules/ui.py")
-os.system(f"sed -i -e '/settings_interface, \"Settings\", \"settings\"/d' /home/xlab-app-center/stable-diffusion-webui/modules/ui.py")
+os.system(f"sed -i -e '/settings.interface, \"Settings\", \"settings\"/d' /home/xlab-app-center/stable-diffusion-webui/modules/ui.py")
 os.system(f"sed -i -e '/extensions_interface, \"Extensions\", \"extensions\"/d' /home/xlab-app-center/stable-diffusion-webui/modules/ui.py")
 
 # os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://download.openxlab.org.cn/models/camenduru/sdxl-base-1.0/weight//sd_xl_base_1.0.safetensors -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o sd_xl_base_1.0.safetensors")
