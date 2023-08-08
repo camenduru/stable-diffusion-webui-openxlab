@@ -158,11 +158,7 @@
     "keyedit_move": true,
     "quicksettings_list": [],
     "ui_tab_order": [],
-    "hidden_tabs": [
-        "Checkpoint Merger",
-        "Train",
-        "Extensions"
-    ],
+    "hidden_tabs": [],
     "ui_reorder_list": [],
     "hires_fix_show_sampler": false,
     "hires_fix_show_prompts": false,
