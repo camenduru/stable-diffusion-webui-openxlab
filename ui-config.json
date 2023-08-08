@@ -93,7 +93,7 @@
     "txt2img/Batch count/visible": true,
     "txt2img/Batch count/value": 1,
     "txt2img/Batch count/minimum": 1,
-    "txt2img/Batch count/maximum": 100,
+    "txt2img/Batch count/maximum": 1,
     "txt2img/Batch count/step": 1,
     "txt2img/Batch size/visible": true,
     "txt2img/Batch size/value": 1,
