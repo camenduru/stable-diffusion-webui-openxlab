@@ -159,6 +159,7 @@
     "quicksettings_list": [],
     "ui_tab_order": [],
     "hidden_tabs": [
+        "Checkpoint Merger",
         "Train"
     ],
     "ui_reorder_list": [],
