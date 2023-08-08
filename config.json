@@ -156,9 +156,7 @@
     "keyedit_precision_extra": 0.05,
     "keyedit_delimiters": ".,\\/!?%^*;:{}=`~()",
     "keyedit_move": true,
-    "quicksettings_list": [
-        "sd_model_checkpoint"
-    ],
+    "quicksettings_list": [],
     "ui_tab_order": [],
     "hidden_tabs": [
         "Checkpoint Merger",
