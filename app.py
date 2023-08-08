@@ -5,7 +5,7 @@ os.chdir(f"/home/xlab-app-center/stable-diffusion-webui")
 
 # os.system(f"git clone https://huggingface.co/embed/negative /home/xlab-app-center/stable-diffusion-webui/embeddings/negative")
 # os.system(f"git clone https://huggingface.co/embed/lora /home/xlab-app-center/stable-diffusion-webui/models/Lora/positive")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/embed/upscale/resolve/main/4x-UltraSharp.pth -d /home/xlab-app-center/stable-diffusion-webui/models/ESRGAN -o 4x-UltraSharp.pth")
+# os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/embed/upscale/resolve/main/4x-UltraSharp.pth -d /home/xlab-app-center/stable-diffusion-webui/models/ESRGAN -o 4x-UltraSharp.pth")
 # os.system(f"wget https://raw.githubusercontent.com/camenduru/stable-diffusion-webui-scripts/main/run_n_times.py -O /home/xlab-app-center/stable-diffusion-webui/scripts/run_n_times.py")
 # os.system(f"git clone https://github.com/deforum-art/deforum-for-automatic1111-webui /home/xlab-app-center/stable-diffusion-webui/extensions/deforum-for-automatic1111-webui")
 # os.system(f"git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser /home/xlab-app-center/stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser")
